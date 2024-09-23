@@ -29,3 +29,7 @@ spring:
     url: jdbc:mysql://my-rds.crimak2o6r6m.ap-northeast-2.rds.amazonaws.com:3306/mydb
     username: admin
     password: password
+  data:
+    redis:
+      host: my-cluster.8kwlyi.ng.0001.apn2.cache.amazonaws.com
+      port: 6379
